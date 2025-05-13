@@ -23,12 +23,36 @@ Our method significantly outperforms traditional machine learning baselines and 
 
 ## 🧬 Requirements
 
-- Python 3.8+
+- Python 3.11.9
 - Transformers (e.g., HuggingFace)
 - scikit-learn
 - pandas, numpy
 - tqdm
 
 Install dependencies:
+
 ```bash
 pip install -r requirements.txt
+```
+
+## 🚀 How to Run
+
+To execute the main program, simply run the following command:
+
+```bash
+python Bert.py
+```
+
+This will launch the core pipeline for asset return prediction using large language models.
+
+Scripts with the suffix `ceshi` (e.g., `bert_ceshi.py`, `xgboost_ceshi.py`) are used for testing and evaluation purposes. These can be run individually to validate performance or conduct ablation experiments.
+
+## 📂 Dataset
+
+The dataset used in this project can be downloaded from the following websites:
+
+- [China Stock Market & Accounting Research (CSMAR)](https://www.gtarsc.com/)
+- [Wind Financial Terminal](https://www.wind.com.cn/)
+- [RESSET Financial Database](https://www.resset.cn/)
+
+Please ensure that the dataset is placed in the appropriate `./data` directory as required by the scripts. Make sure file names and structures match those expected in the code for successful execution.
