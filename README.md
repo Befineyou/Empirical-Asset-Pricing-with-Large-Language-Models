@@ -45,14 +45,12 @@ python Bert.py
 
 This will launch the core pipeline for asset return prediction using large language models.
 
-Scripts with the suffix `ceshi` (e.g., `bert_ceshi.py`, `xgboost_ceshi.py`) are used for testing and evaluation purposes. These can be run individually to validate performance or conduct ablation experiments.
+Scripts with the suffix ceshi (e.g., bert-ceshi.py) are used for testing and evaluation purposes. These can be run individually to validate performance or conduct ablation experiments.
 
 ## 📂 Dataset
 
-The dataset used in this project can be downloaded from the following websites:
+The dataset used in this project can be downloaded from the following website:
 
-- [China Stock Market & Accounting Research (CSMAR)](https://www.gtarsc.com/)
-- [Wind Financial Terminal](https://www.wind.com.cn/)
-- [RESSET Financial Database](https://www.resset.cn/)
+  https://www.dropbox.com/scl/fi/bdgz7tu8wc6svm1qom7bs/datashare.zip?rlkey=4zhrjv92vi54r83byw3ihhf6i&e=1&dl=0
 
 Please ensure that the dataset is placed in the appropriate `./data` directory as required by the scripts. Make sure file names and structures match those expected in the code for successful execution.
